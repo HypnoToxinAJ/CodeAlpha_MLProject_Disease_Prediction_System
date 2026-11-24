@@ -5,6 +5,10 @@ heart disease, and breast cancer datasets. It includes a command-line predictor
 and a Streamlit web interface. This GitHub repository contains source code and
 documentation only; health-related CSV files and model artifacts are excluded.
 
+## Live app
+
+[Open the Disease Prediction System](https://codealphamlprojectdiseasepredictionsystem-ovutnrjpappfg2mg9nne.streamlit.app/)
+
 > **Important:** This is an educational experiment, not a medical device. Its
 > predictions and probabilities are not diagnoses, medical advice, or a
 > substitute for a qualified healthcare professional.
