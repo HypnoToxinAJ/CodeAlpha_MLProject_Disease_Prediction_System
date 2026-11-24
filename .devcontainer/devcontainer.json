@@ -1,0 +1,20 @@
+{
+  "name": "Disease Prediction System",
+  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "postCreateCommand": "python -m pip install --upgrade pip && python -m pip install -r requirements.txt",
+  "postStartCommand": "python -m streamlit run app.py",
+  "forwardPorts": [8501],
+  "portsAttributes": {
+    "8501": {
+      "label": "Disease Prediction Web App",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  }
+}
